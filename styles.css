@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+}
+div.container {
+    width: 100%;
+    height: 400px;
+    background-color: #23282e;
+    margin-top: 200px; 
+}
+.container > div {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
+.container > div h1 {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+form {
+    width: 90%;
+    margin: auto;
+}
+label {
+    color: white;
+    font-size: 12px;
+}
+form div {
+    display: inline-block;
+    margin: 20px;
+    margin-left: 40px;
+}
+form div > input {
+    padding: 7px;
+    border-radius: 7px;
+    border: 0;
+}
+input[type="button"] {
+    color: #fff;
+    background-color: green;
+    border-radius: 5px;
+    width: 150px;
+    padding: 10px;
+}
+form + p {
+    text-align: center;
+    color: grey;
+    font-size: 12px;
+}
+form + p > span {
+    color: whitesmoke;
+}
